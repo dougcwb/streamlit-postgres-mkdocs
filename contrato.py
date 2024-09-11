@@ -3,9 +3,9 @@ from pydantic import BaseModel, EmailStr, PositiveFloat, PositiveInt
 from enum import Enum
 
 class ProdutoEnum(str, Enum):
-    produto1 = "ZapFlow com Gemini"
-    produto2 = "ZapFlow com chatGPT"
-    produto3 = "ZapFlow com Llama3.0"
+    produto1 = "Gemini"
+    produto2 = "ChatGPT"
+    produto3 = "Llama3.0"
 
 class Vendas(BaseModel):
     """
