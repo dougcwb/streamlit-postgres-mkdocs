@@ -1,11 +1,4 @@
-### **README - Sistema de CRM e Vendas da ZapFlow**
-
-Esse é o repositório da primeira parte da aula
-
-[![Jornada de Dados - Luciano Galvão Filho](https://img.youtube.com/vi/I-4noY9hGTQ/0.jpg)](https://www.youtube.com/watch?v=I-4noY9hGTQ)
-
----
-
+### **README - Sistema de CRM**
 ### **Introdução**
 
 O Sistema de CRM e Vendas da ZapFlow é uma aplicação desenvolvida para gerenciar e validar vendas de forma simples e eficiente. O sistema é composto por um frontend interativo desenvolvido com Streamlit, validação de dados com Pydantic, e integração com um banco de dados PostgreSQL usando Psycopg2.
@@ -40,6 +33,7 @@ sequenceDiagram
 
 - **Descrição:** Streamlit é uma biblioteca Python de código aberto que permite a criação de aplicativos web interativos de forma rápida e fácil. Utilizado principalmente para construir dashboards e interfaces de dados, o Streamlit é ideal para prototipagem rápida e visualização de dados sem a necessidade de conhecimentos avançados em desenvolvimento web.
 - **Uso no Projeto:** Utilizado para construir o frontend da aplicação, permitindo que os usuários insiram dados de vendas de forma interativa e visualizem os resultados diretamente na interface.
+- **Comandos:** `streamlit run app.py`
 
 #### **Pydantic**
 
@@ -60,6 +54,8 @@ sequenceDiagram
 
 - **Descrição:** MkDocs é uma ferramenta estática de documentação em Python que permite a criação de sites de documentação de forma simples e estruturada. É especialmente útil para projetos que precisam de uma documentação clara e acessível para os desenvolvedores e usuários.
 - **Uso no Projeto:** MkDocs é utilizado para gerar a documentação do sistema, detalhando como o projeto foi estruturado, as funcionalidades desenvolvidas, e como o sistema deve ser mantido e atualizado.
+- **Comandos:** `mkdocs serve`
+
 
 ### **Estrutura do Projeto**
 
